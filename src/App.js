@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+// import Login from './Login';
 import './App.css';
+// import Register from './Register';
 
 function App() {
   return (
-    <div className="App">
+      <div className="App">
       <header className="App-header">
       <link
         rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
       />
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      />
+      <main className="App">
+      </main>
       <p> <a
           className="App-link"
           href="https://aucar.fr"
           target="_blank" rel="noreferrer" >Aucar</a> Vente de voitures en ligne aux Enchères </p>
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
